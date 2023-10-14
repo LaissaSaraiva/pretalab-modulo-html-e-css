@@ -78,7 +78,7 @@ section#main__section {
   flex-direction: column;
   align-items: center;
   background-color: #D7E2FF;
-  padding: 29px 47px 35px; 
+  padding: 29px 20px 35px; 
 }
 
 .title__container {
@@ -100,6 +100,7 @@ section#main__section {
 .images__container {
   margin: 27px auto 35px;
   display: flex;
+  justify-content: center;
   gap: 70px;
   flex-wrap: wrap;
 }
@@ -134,10 +135,9 @@ section#main__section {
 
 }
 
-
 section#clients {
   background-color: #AEBFEB;
-  padding: 37px 50px 75px;
+  padding: 37px 20px 75px;
 }
 
 .section__title {
@@ -196,4 +196,38 @@ section#clients {
 .card__review p {
   text-align: justify;
   margin-top: 70px;
+}
+
+/* Orders */
+section#orders {
+  background-color: #D7E2FF;
+  padding: 38px 20px;
+}
+
+.table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+th, td {
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #000;
+  min-width: 250px;
+}
+thead{
+  background-color: #7C71FF;
+}
+@media (max-width:1024px) {
+  th, td {
+    min-width: 100px;
+  }
+}
+
+@media (max-width:640px) {
+  th, td {
+    min-width: 25px;
+  }
 }
