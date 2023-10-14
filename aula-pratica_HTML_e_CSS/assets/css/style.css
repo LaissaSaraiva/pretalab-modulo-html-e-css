@@ -222,6 +222,9 @@ th, td {
 thead{
   background-color: #7C71FF;
 }
+
+/* Orders - Responsive */
+
 @media (max-width:1024px) {
   th, td {
     min-width: 100px;
@@ -233,6 +236,8 @@ thead{
     min-width: 25px;
   }
 }
+
+/* Contact Us */
 
 section#contactUs {
   background-color: #AEBFEB;
@@ -284,4 +289,20 @@ section#contactUs {
   cursor: pointer;
   background-color: #200065;
   border: 1px solid #200065;
+}
+
+/* Footer */
+
+.footer {
+  padding: 20px;
+  background-color: #3F3F3F;
+  color: #FFF;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer a {
+  color: #0075FF;
 }
