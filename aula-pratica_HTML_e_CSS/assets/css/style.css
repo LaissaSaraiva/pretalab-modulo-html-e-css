@@ -111,6 +111,7 @@ section#main__section {
   height: 284px;
   text-align: center;
   overflow: hidden;
+  box-shadow: rgba(4, 69, 125, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .images__container img {
@@ -183,6 +184,7 @@ section#clients {
 
 .card__review i {
   font-size: 18px;
+  color: #200065;
 }
 
 .card__review img {
