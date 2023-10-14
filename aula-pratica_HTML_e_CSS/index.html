@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Meu Projeto - HTML e CSS</title>
   </head>
   <body>
-    <header>
-      <div>
+    <header class="header">
+      <div class="user__info">
         <p><strong>Laíssa Saraiva</strong></p>
         <small>último login em: 06/10/2023 às 16h30</small>
       </div>
-      <nav>
+      <nav class="header__menu">
         <ul>
           <li>
             <a href="#">
@@ -89,7 +93,40 @@
         </div>
       </section>
       <section id="orders">
-
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Produto</th>
+              <th>Quantidade</th>
+              <th>Valor</th>
+              <th>Data da compra</th>
+            </tr>
+          </thead>
+          <tboby>
+            <tr>
+              <td>1</td>
+              <td>Blusa</td>
+              <td>1</td>
+              <td>20,00</td>
+              <td>01/01/2013</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Vestido</td>
+              <td>1</td>
+              <td>100,00</td>
+              <td>01/01/2013</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Sapato</td>
+              <td>1</td>
+              <td>100,00</td>
+              <td>01/01/2013</td>
+            </tr>
+          </tboby>
+        </table>
       </section>
 
       <section id="contactUs">
