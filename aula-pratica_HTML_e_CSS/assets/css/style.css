@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #7C71FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.header__menu ul {
+  display:flex;
+}
+
+.header__menu li {
+  list-style: none;
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: aliceblue;
+}
