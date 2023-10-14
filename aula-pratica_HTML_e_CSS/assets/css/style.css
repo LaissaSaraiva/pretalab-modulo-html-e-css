@@ -156,7 +156,7 @@ section#clients {
 }
 
 .card__review {
-  height: 427px;
+  min-height: 427px;
   max-width: 427px;
   background-color: #D4E0FF;
   padding: 38px 26px 38px 45px;
