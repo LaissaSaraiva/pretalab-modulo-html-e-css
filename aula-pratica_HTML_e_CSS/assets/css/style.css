@@ -73,7 +73,7 @@ a {
   align-items: center;
 }
 
-#main__section {
+section#main__section {
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -132,4 +132,68 @@ a {
 .button__container:hover a {
   color: #200065;
 
+}
+
+
+section#clients {
+  background-color: #AEBFEB;
+  padding: 37px 50px 75px;
+}
+
+.section__title {
+  color: #200065;
+  font-family: "Abril Fatface";
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.clients__reviews {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+.card__review {
+  height: 427px;
+  max-width: 427px;
+  background-color: #D4E0FF;
+  padding: 38px 26px 38px 45px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.5s ease;
+}
+
+.card__review:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.card__top {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.card__review h4 {
+  font-family: "Abril Fatface";
+  font-size: 32px;
+  color: #1E1E1E;
+  width: 10rch;
+}
+
+.card__review i {
+  font-size: 18px;
+}
+
+.card__review img {
+  padding: 2px;
+  border: solid 2px #7C71FF;
+  border-radius: 50%;
+  height: 98px;
+  width: 98px;
+}
+
+.card__review p {
+  text-align: justify;
+  margin-top: 70px;
 }
