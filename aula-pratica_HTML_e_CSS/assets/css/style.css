@@ -233,3 +233,55 @@ thead{
     min-width: 25px;
   }
 }
+
+section#contactUs {
+  background-color: #AEBFEB;
+  padding: 29px 20px 35px; 
+}
+
+.form__container {
+  margin: 0 auto;
+  max-width: 1141px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.form__container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__container label {
+  font-size: 14px;
+  line-height: 28px;
+  margin-left: 3px;
+}
+
+.form__container input, .form__container textarea {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #AAAAAD;
+}
+
+.form__btn {
+  display: flex;
+  align-items: center;
+}
+
+.form__btn button {
+  padding: 10px 15px;
+  background-color: #313131;
+  border: 1px solid #313131;
+  border-radius: 10px;
+  font-size: 22px;
+  color: #FFF;
+  min-width: 270px;
+}
+
+.form__btn button:hover {
+  cursor: pointer;
+  background-color: #200065;
+  border: 1px solid #200065;
+}
