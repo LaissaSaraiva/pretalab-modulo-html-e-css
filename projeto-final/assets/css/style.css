@@ -30,3 +30,25 @@ a {
   color: #FFF;
   font-size: 18px;
 }
+
+/* Main Section */
+
+.main__section {
+  background-color: #EDEAEA;
+  height: 577px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__section img {
+  width: 150px;
+  height: 150px;
+}
+
+.profile__box{
+  text-align: center;
+  max-width: 490px;
+  
+
+}
