@@ -12,7 +12,7 @@ a {
 }
 
 .header {
-  background-color: blueviolet;
+  background-color: #713f61;
   min-height: 100px;
   display:flex;
   align-items: center;
@@ -49,6 +49,52 @@ a {
 .profile__box{
   text-align: center;
   max-width: 490px;
-  
-
 }
+
+
+/* Formação */
+
+section#background {
+  padding: 20px 0;
+}
+
+.section__title {
+  margin-left: 40px;
+  color: #f382a5;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.background__list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background__items {
+  padding: 17px 20px;
+  width: 750px;
+}
+
+.background__name {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #af597f;
+}
+
+.background__items p {
+  text-align: justify;
+}
+
+
+
+
+
+
+/* .color1 {color: #4c2f4c;}
+.color2 {color: #713f61;}
+.color3 {color: #af597f;}
+.color4 {color: #f382a5;}
+.color5 {color: #f8b1c1;} */
