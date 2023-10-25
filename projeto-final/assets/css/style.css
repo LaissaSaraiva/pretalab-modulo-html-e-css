@@ -70,7 +70,7 @@ section#projects {
  }
 
 .section__container {
-  padding: 20px;
+  padding: 20px 20px 60px 20px;
 }
 
 .section__title {
@@ -109,9 +109,11 @@ section#projects {
 
 .article__subtitle {
   display: block;
+  margin-bottom: 8px;
 }
 
 .article__items p {
+  margin-top: 8px;
   text-align: justify;
 }
 
