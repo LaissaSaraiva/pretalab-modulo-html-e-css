@@ -53,6 +53,11 @@ a {
   max-width: 490px;
 }
 
+.main__section h1 {
+  font-size: 36px;
+  color: #af597f;
+  font-weight: 700;
+}
 
 /* Formação e Meus Projetos */
 
@@ -140,6 +145,22 @@ section#projects {
   color: #f8b1c1
 }
 
+/* Footer BTN */
+
+.footer_btn {
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+
+}
+
+.footer_btn i {
+  color: #f382a5;
+  font-size: 25px;
+  border-radius: 25%;
+  padding: 12px;
+  background-color: #000;
+}
 
 /* Paleta de Cores */
 /* .color1 {color: #4c2f4c;}
