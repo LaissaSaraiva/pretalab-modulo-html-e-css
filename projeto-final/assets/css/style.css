@@ -30,6 +30,15 @@ a {
 .menu__nav li > a {
   color: #FFF;
   font-size: 18px;
+  border: 1px solid transparent;
+  padding: 5px 5px;
+  border-radius: 4px;
+}
+
+.menu__nav li:hover > a {
+  color: #000;
+  border-color: #FFF;
+  background-color: #FFF;
 }
 
 /* Main Section */
@@ -68,10 +77,6 @@ a {
 }
 
 /* Formação e Meus Projetos */
-
-/* section#background {
-
-} */
 
 section#projects {
   background-color: #EDEAEA;
