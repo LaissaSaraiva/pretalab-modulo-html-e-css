@@ -100,6 +100,10 @@ section#projects {
   max-width: 750px;
 }
 
+section#projects .article__items {
+margin-bottom: 25px;
+}
+
 .article__name {
   font-size: 20px;
   font-weight: 700;
